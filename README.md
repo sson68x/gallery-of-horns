@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Gallery of Horns
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Lab 02
 
-## Available Scripts
+Number and name of feature: 1. Display images
 
-In the project directory, you can run:
+Estimate of time needed to complete: 1 hour
 
-### `npm start`
+Start time: 3:45
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Finish time: 4:20
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Actual time needed to complete: 35 min
 
-### `npm test`
+Number and name of feature: 2. Allow users to vote for their favorite beast
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Estimate of time needed to complete: 1 hour
 
-### `npm run build`
+Start time: 4:30
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finish time: 5:35
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Actual time needed to complete: 65 min
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Number and name of feature: 3. Bootstrap
 
-### `npm run eject`
+Estimate of time needed to complete: 2 hours
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Start time: 5:40
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Finish time: 7:10
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Actual time needed to complete: 90 min
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Lab 03
 
-## Learn More
+Number and name of feature: 1. Display a Modal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Estimate of time needed to complete: 3 hour
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start time: 3:10
 
-### Code Splitting
+Finish time: 7:50
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Actual time needed to complete: 4 hrs 40 min
