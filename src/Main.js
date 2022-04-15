@@ -6,7 +6,7 @@ import './Main.css';
 
 class Main extends React.Component {
   render() {
-    let beasts = this.props.data.map((beast, _id) => {
+    let beasts = this.props.filteredData.map((beast, _id) => {
       return (
         <HornedBeast
           key={beast._id}

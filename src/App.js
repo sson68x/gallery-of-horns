@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from './Header';
+import Forms from './Forms';
 import Main from './Main';
 import Footer from './Footer';
 import SelectedBeast from './SelectedBeast';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import data from './data.json';
 
 
@@ -14,14 +16,15 @@ class App extends React.Component {
       showModal: false,
       image: '',
       title: '',
-      description: ''
-    }
+      description: '',
+      filteredData: data
+    };
   }
 
   hideModal = () => {
     this.setState({
       showModal: false
-    })
+    });
   }
 
   openModal = (image, title, description) => {
@@ -31,20 +34,35 @@ class App extends React.Component {
       title: title,
       description: description
     });
-  };
+  }
+
+  handleForm = event => {
+    let horns = parseInt(event.target.value);
+    this.setState ({
+      horns: horns,
+      sort: event.target.value
+    });
+    if(horns) {
+      let newData = data.filter(element => element.horns === horns);
+      this.setState({filteredData: newData});
+    } else {
+      this.setState({filteredData: data});
+    }
+  } 
 
   render() {
     return (
       <>
         <Header />
+        <Forms handleForm={this.handleForm}/>
         <Main
-          data={data}
           showModal={this.state.showModal}
           hideModal={this.hideModal}
           openModal={this.openModal}
           image={this.state.image}
           title={this.state.title}
           description={this.state.description}
+          filteredData={this.state.filteredData}
         />
         <SelectedBeast
           showModal={this.state.showModal}
